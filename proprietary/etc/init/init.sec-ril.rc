@@ -1,0 +1,14 @@
+# Copyright (C) 2012 The Android Open Source Project
+#
+# IMPORTANT: Do not create world writable files or directories.
+# This is a common source of Android security bugs.
+#
+
+#SEC_RIL Mount
+on init
+	mount none /system_ext/lib64/libcarrierconfig.so /vendor/lib64/libcarrierconfig.so bind
+	mount none /system_ext/lib64/librilfusion.so /vendor/lib64/librilfusion.so bind
+	mount none /system_ext/lib64/libril_sem.so /vendor/lib64/libril_sem.so bind
+	mount none /system_ext/lib64/libsec-ril.so /vendor/lib64/libsec-ril.so bind
+	mount none /system_ext/lib64/libsecril-client.so /vendor/lib64/libsecril-client.so bind
+	mount none /system_ext/lib64/libSemTelephonyProps.so /vendor/lib64/libSemTelephonyProps.so bind
