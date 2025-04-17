@@ -6,15 +6,15 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sec_ril
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/sec_ril/proprietary/etc/init/init.sec-ril.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.sec-ril.rc \
-    vendor/samsung/sec_ril/proprietary/etc/init/face-jdm.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/face-jdm.rc \
-    vendor/samsung/sec_ril/proprietary/etc/init/vendor.samsung.hardware.biometrics.face.jdm-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.samsung.hardware.biometrics.face.jdm-service.rc \
-    vendor/samsung/sec_ril/proprietary/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc \
-    vendor/samsung/sec_ril/proprietary/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcarrierconfig.so \
-    vendor/samsung/sec_ril/proprietary/lib64/libril_sem.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libril_sem.so \
-    vendor/samsung/sec_ril/proprietary/lib64/librilfusion.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/librilfusion.so \
-    vendor/samsung/sec_ril/proprietary/lib64/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsec-ril.so \
-    vendor/samsung/sec_ril/proprietary/lib64/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsecril-client.so \
-    vendor/samsung/sec_ril/proprietary/lib64/libSemTelephonyProps.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libSemTelephonyProps.so \
+    vendor/samsung/secril/proprietary/etc/init/init.sec-ril.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.sec-ril.rc \
+    vendor/samsung/secril/proprietary/etc/init/face-jdm.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/face-jdm.rc \
+    vendor/samsung/secril/proprietary/etc/init/vendor.samsung.hardware.biometrics.face.jdm-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.samsung.hardware.biometrics.face.jdm-service.rc \
+    vendor/samsung/secril/proprietary/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc \
+    vendor/samsung/secril/proprietary/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcarrierconfig.so \
+    vendor/samsung/secril/proprietary/lib64/libril_sem.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libril_sem.so \
+    vendor/samsung/secril/proprietary/lib64/librilfusion.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/librilfusion.so \
+    vendor/samsung/secril/proprietary/lib64/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsec-ril.so \
+    vendor/samsung/secril/proprietary/lib64/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsecril-client.so \
+    vendor/samsung/secril/proprietary/lib64/libSemTelephonyProps.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libSemTelephonyProps.so
  
 
