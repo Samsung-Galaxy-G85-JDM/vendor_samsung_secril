@@ -12,3 +12,6 @@ on init
 	mount none /system_ext/lib64/libsec-ril.so /vendor/lib64/libsec-ril.so bind
 	mount none /system_ext/lib64/libsecril-client.so /vendor/lib64/libsecril-client.so bind
 	mount none /system_ext/lib64/libSemTelephonyProps.so /vendor/lib64/libSemTelephonyProps.so bind
+	mount none /system_ext/etc/init/face-jdm.rc /vendor/etc/init/face-jdm.rc bind
+	mount none /system_ext/etc/init/vendor.samsung.hardware.biometrics.face.jdm-service.rc /vendor/etc/init/vendor.samsung.hardware.biometrics.face.jdm-service.rc bind
+	mount none /system_ext/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc /vendor/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc bind
